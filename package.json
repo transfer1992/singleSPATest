@@ -1,0 +1,37 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production",
+    "start": "webpack-dev-server --open --hot --mode development"
+  },
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-ui-router": "^1.0.23",
+    "html-loader": "^0.5.5",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "single-spa": "^4.4.1",
+    "single-spa-angularjs": "^3.1.0",
+    "single-spa-react": "^2.10.3"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.6.56",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "@types/single-spa-react": "^2.8.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
